@@ -1,0 +1,84 @@
+.finish-up-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  padding-top: 70px;
+}
+
+.finish-title-text {
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+
+.blod-blue {
+  color: hsl(213, 96%, 18%);
+}
+
+.grey {
+  color: grey;
+}
+
+.final-details-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.all-without-total {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(199, 73%, 96%);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.plan-chosen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(213, 211, 211);
+  padding-bottom: 20px;
+}
+
+.plan-chosen-name {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.all-add-ons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.add-selected {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.total-price {
+  font-size: 25px;
+}
+
+.under-line {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.under-line:hover {
+  color: blue;
+}
+
+@media screen and (max-width: 960px) {
+  .finish-up-container {
+    padding-top: 0px;
+  }
+}/*# sourceMappingURL=FinishUp.css.map */

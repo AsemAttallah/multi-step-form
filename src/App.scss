@@ -4,7 +4,6 @@
   box-sizing: border-box;
   font-size: 16px;
 }
-
 .app {
   background-color: hsl(199, 73%, 96%);
   height: 100vh;
@@ -15,14 +14,12 @@
 
 .all-container {
   display: flex;
-  -moz-column-gap: 13%;
-       column-gap: 13%;
+  column-gap: 13%;
   background-color: white;
   width: 1440px;
   padding: 20px;
   border-radius: 10px;
 }
-
 .right-content {
   display: flex;
   flex-direction: column;
@@ -30,17 +27,14 @@
   width: 480px;
   justify-content: space-between;
 }
-
 .right-content-final {
   display: flex;
   width: 480px;
 }
-
 .top-btn-container {
   display: flex;
   justify-content: space-between;
 }
-
 .one-button {
   display: flex;
   justify-content: end;
@@ -51,8 +45,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    -moz-column-gap: 13%;
-         column-gap: 13%;
+    column-gap: 13%;
     background-color: hsl(199, 73%, 96%);
     width: 100%;
     max-width: 1440px;
@@ -72,6 +65,7 @@
     border-radius: 10px;
     height: 595px;
   }
+
   .fixed-right {
     position: fixed;
     bottom: -30%;
@@ -82,6 +76,7 @@
     bottom: -30%;
     left: 0;
   }
+
   .right-content-final {
     display: flex;
     width: 87%;
@@ -93,4 +88,4 @@
     width: 90%;
     padding: 10px;
   }
-}/*# sourceMappingURL=App.css.map */
+}

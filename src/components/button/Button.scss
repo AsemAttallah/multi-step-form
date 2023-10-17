@@ -1,0 +1,39 @@
+.btn {
+  width: 130px;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+}
+
+.next-btn {
+  background-color: hsl(213, 96%, 18%);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  &:hover{
+    background-color: hsl(213, 96%,25%);
+  }
+}
+
+.back-btn {
+  background-color: white;
+  color: grey;
+  cursor: pointer;
+  &:hover {
+    color: hsl(213, 96%, 18%);
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .back-btn {
+    position: fixed;
+    bottom: -23%;
+    left: 0;
+  }
+  .next-btn {
+    position: fixed;
+    bottom: -23%;
+    right: 0;
+  }
+}

@@ -1,0 +1,49 @@
+.personal-info-container {
+  display: flex;
+  justify-content: center;
+}
+.Personal-info-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  width: 100%;
+  padding-top: 70px;
+}
+.fields {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  label {
+    color: hsl(213, 96%, 18%);
+  }
+}
+.input-field {
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid grey;
+  padding: 10px;
+}
+.input-field:focus {
+  outline: 1px solid hsl(213, 96%, 18%);
+}
+.personal-text {
+  font-size: 35px;
+  padding-bottom: 10px;
+  color: hsl(213, 96%, 18%);
+}
+.instructor-text {
+  color: grey;
+}
+.validation-text{
+  color: red;
+}
+.name-validation{
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 960px) {
+  .Personal-info-form {
+    padding-top: 0px;
+  }
+}

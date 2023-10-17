@@ -1,0 +1,27 @@
+.thanks-message-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+}
+
+.thanks-title {
+  font-size: 30px;
+}
+
+.thanks-p {
+  text-align: center;
+}
+
+@media screen and (max-width: 960px) {
+  .thanks-message-container {
+    display: flex;
+    padding: 25px;
+    margin: 0 33px;
+    background-color: white;
+    transform: translateY(-63px);
+    border-radius: 10px;
+    height: 570px;
+  }
+}

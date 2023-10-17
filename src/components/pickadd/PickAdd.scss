@@ -1,0 +1,85 @@
+.pick-add-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  padding-top: 70px;
+}
+
+.options-add-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.select-add-text {
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+
+.blod-blue {
+  color: hsl(213, 96%, 18%);
+}
+
+.grey {
+  color: grey;
+}
+
+// Add-ons component
+
+.addOns-container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(172, 170, 170);
+  border-radius: 8px;
+  padding: 20px;
+  &:hover {
+    border: 1px solid hsl(213, 96%, 18%);
+  }
+}
+.addOns-container-element {
+  display: flex;
+  column-gap: 30px;
+}
+
+.addOns-name {
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+.addOns-price {
+  display: flex;
+  align-items: center;
+}
+
+.addOns-checkbox {
+  width: 20px;
+  cursor: pointer;
+}
+
+.bg-plan {
+  background-color: hsl(199, 73%, 96%);
+  border: 1px solid hsl(213, 96%, 18%);
+}
+
+@media screen and (max-width: 960px) {
+  .pick-add-container {
+    padding-top: 0px;
+  }
+}
+@media screen and (max-width: 525px) {
+  .addOns-container {
+    height: 130px;
+  }
+  .addOns-container-element {
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 435px) {
+  .addOns-container-element {
+    display: flex;
+    column-gap: 10px;
+  }
+  .addOns-container {
+    padding: 10px;
+  }
+}
